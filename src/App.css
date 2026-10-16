@@ -1,0 +1,77 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 40px 48px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 100%;
+  max-width: 360px;
+}
+
+.title {
+  margin: 0 0 24px;
+  font-size: 1.5rem;
+  color: #1f2937;
+}
+
+.count {
+  font-size: 1.75rem;
+  margin: 0 0 32px;
+  color: #374151;
+}
+
+.count span {
+  font-weight: 700;
+  color: #111827;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    transform 0.1s ease,
+    opacity 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-decrement {
+  background: #ef4444;
+  color: white;
+  min-width: 56px;
+}
+
+.btn-increment {
+  background: #22c55e;
+  color: white;
+  min-width: 56px;
+}
+
+.btn-reset {
+  background: #e5e7eb;
+  color: #1f2937;
+}
